@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootscrap Tutorial</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <style>
+        .jumbotron {
+            background-color:#2e2d88;
+            color:white;
+        }
+        /* Adds borders for tabs */
+        .tab-content {
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+        .nav-tabs {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <a href="https://www.youtube.com/watch?v=gqOEoUR5RHg" class="btn btn-lg btn-primary" target="_blank">Tutorial Video</a>
+    <div class="page-header">
+        <h1>Bootstrap Tutorial 04 - Well in Different Screen Size</h1>
+    </div>
+    <div class="well hidden-sm hidden-md hidden-lg">
+        <p>Screen &lt; 768px</p>
+    </div>
+
+    <div class="well hidden-md hidden-lg">
+        <p>Screen &gt;= 768px and &lt; 992px</p>
+    </div>
+
+    <div class="well hidden-lg">
+        <p>Screen &gt;= 992px and &lt; 1200px</p>
+    </div>
+
+    <div class="well">
+        <p>Screen &gt; 1200px</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+</html>
