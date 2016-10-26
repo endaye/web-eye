@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootscrap Tutorial</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style type="text/css">
+        .jumbotron {
+            background-color:#2e2d88;
+            color:white;
+        }
+        /* Adds borders for tabs */
+        .tab-content {
+            border-left: 1px solid #ddd;
+            border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd;
+            padding: 10px;
+        }
+        .nav-tabs {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<a href="https://www.youtube.com/watch?v=gqOEoUR5RHg" class="btn btn-lg btn-primary" target="_blank">Tutorial Video</a>
+<div class="page-header">
+    <h1>Bootstrap Tutorial 14 - Input Button Dropdown</h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="input-group">
+            <div class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    User ID
+                </button>
+                <span class="caret">
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Google+</a></li>
+                    </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
